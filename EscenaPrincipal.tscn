@@ -1,0 +1,320 @@
+[gd_scene load_steps=51 format=3 uid="uid://bx12n8uvi1gfs"]
+
+[ext_resource type="Script" uid="uid://c7e5jfivm4lvn" path="res://node_2d.gd" id="1_nwmal"]
+[ext_resource type="Texture2D" uid="uid://cd61qxh2dwrwc" path="res://Sprites/craftpix-003003-parallax-scrolling-city-game-backgrounds/PNG/game_background_1/layers/sky.png" id="2_l726g"]
+[ext_resource type="Texture2D" uid="uid://c1gjwddse7ygs" path="res://Sprites/craftpix-003003-parallax-scrolling-city-game-backgrounds/PNG/game_background_1/layers/building.png" id="3_ti6ls"]
+[ext_resource type="Texture2D" uid="uid://bdihjknalymv6" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_000.png" id="4_bseqe"]
+[ext_resource type="Texture2D" uid="uid://bttr0yc7nx7ws" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_001.png" id="5_jaa3c"]
+[ext_resource type="Texture2D" uid="uid://chxab87x3wjhq" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_002.png" id="6_ca7ih"]
+[ext_resource type="Texture2D" uid="uid://dmwafkhhus84a" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_003.png" id="7_ybhgs"]
+[ext_resource type="Texture2D" uid="uid://ffs205prfvgn" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_004.png" id="8_ievpf"]
+[ext_resource type="Texture2D" uid="uid://dcynk632h0iq7" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_005.png" id="9_6ebcb"]
+[ext_resource type="Texture2D" uid="uid://dk363vkj6oig8" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_006.png" id="10_pqbx4"]
+[ext_resource type="Texture2D" uid="uid://cl2khmiesc7ee" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_007.png" id="11_dpur3"]
+[ext_resource type="Texture2D" uid="uid://7lvt7u17i0k6" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_008.png" id="12_eslei"]
+[ext_resource type="Texture2D" uid="uid://brp2lyesgdrpg" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_009.png" id="13_ogn5i"]
+[ext_resource type="Texture2D" uid="uid://ccc50l43g18gp" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_010.png" id="14_jo7mo"]
+[ext_resource type="Texture2D" uid="uid://c7t3x1to1mmag" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_011.png" id="15_mxwqa"]
+[ext_resource type="Texture2D" uid="uid://dbl7c8i77u1eo" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_012.png" id="16_wv21a"]
+[ext_resource type="Texture2D" uid="uid://b3o8q826mwyy1" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_013.png" id="17_43662"]
+[ext_resource type="Texture2D" uid="uid://c3g52mhmfio31" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_014.png" id="18_vcemm"]
+[ext_resource type="Texture2D" uid="uid://c5bxcsl7ps1va" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_015.png" id="19_lgjpt"]
+[ext_resource type="Texture2D" uid="uid://csdt6c3nc04m4" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_016.png" id="20_d2qc7"]
+[ext_resource type="Texture2D" uid="uid://cwjyarv0uxs7v" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_017.png" id="21_4ktkh"]
+[ext_resource type="Texture2D" uid="uid://b8lybtca5mgtr" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_018.png" id="22_v2x8y"]
+[ext_resource type="Texture2D" uid="uid://btnt24isiihqh" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_019.png" id="23_pedxl"]
+[ext_resource type="Texture2D" uid="uid://ckxjguof6oauu" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_020.png" id="24_nnibm"]
+[ext_resource type="Texture2D" uid="uid://bpaurpjqs5g7k" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_021.png" id="25_prmdt"]
+[ext_resource type="Texture2D" uid="uid://o1rds6n8u6uu" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_022.png" id="26_e3nof"]
+[ext_resource type="Texture2D" uid="uid://eyvlqamfqbbn" path="res://Sprites/craftpix-net-278081-priest-chibi-character-sprites/Priest_1/PNG/PNG Sequences/Walking/0_Priest_Walking_023.png" id="27_gmye5"]
+[ext_resource type="Texture2D" uid="uid://cn1pipg4bxg1i" path="res://Sprites/image2.png" id="28_jaa3c"]
+[ext_resource type="Texture2D" uid="uid://bww2bxyywmdmq" path="res://Sprites/papa1.png" id="29_ca7ih"]
+[ext_resource type="Texture2D" uid="uid://frdop4onpnve" path="res://Sprites/mama1.png" id="30_ybhgs"]
+[ext_resource type="Texture2D" uid="uid://cjk5f5nv0o7i8" path="res://Sprites/david.png" id="31_ievpf"]
+[ext_resource type="Texture2D" uid="uid://dw4kpit2xu1mg" path="res://Sprites/yopeque1.png" id="32_6ebcb"]
+[ext_resource type="AudioStream" uid="uid://crta6eb7kaivj" path="res://music/Ending Theme - Super Mario_ World.ogg" id="33_pqbx4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybhgs"]
+atlas = ExtResource("28_jaa3c")
+region = Rect2(0, 0, 172, 331)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ievpf"]
+atlas = ExtResource("28_jaa3c")
+region = Rect2(172, 0, 172, 331)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ebcb"]
+atlas = ExtResource("28_jaa3c")
+region = Rect2(344, 0, 172, 331)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqbx4"]
+atlas = ExtResource("28_jaa3c")
+region = Rect2(516, 0, 172, 331)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fbvl3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_bseqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jaa3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ca7ih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ybhgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ievpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6ebcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_pqbx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dpur3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eslei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ogn5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_jo7mo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_mxwqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wv21a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_43662")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_vcemm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_lgjpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_d2qc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_4ktkh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_v2x8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pedxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_nnibm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_prmdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_e3nof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_gmye5")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybhgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ievpf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ebcb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqbx4")
+}],
+"loop": true,
+"name": &"walking2",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dpur3"]
+atlas = ExtResource("29_ca7ih")
+region = Rect2(0, 0, 352, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eslei"]
+atlas = ExtResource("29_ca7ih")
+region = Rect2(1056, 0, 352, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ogn5i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dpur3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eslei")
+}],
+"loop": true,
+"name": &"walking2",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ogn5i"]
+atlas = ExtResource("30_ybhgs")
+region = Rect2(0, 0, 350, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jo7mo"]
+atlas = ExtResource("30_ybhgs")
+region = Rect2(1050, 0, 350, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ca7ih"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogn5i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jo7mo")
+}],
+"loop": true,
+"name": &"walking2",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mxwqa"]
+atlas = ExtResource("31_ievpf")
+region = Rect2(0, 0, 350, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wv21a"]
+atlas = ExtResource("31_ievpf")
+region = Rect2(1050, 0, 350, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ybhgs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mxwqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wv21a")
+}],
+"loop": true,
+"name": &"walking2",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43662"]
+atlas = ExtResource("32_6ebcb")
+region = Rect2(0, 0, 351, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vcemm"]
+atlas = ExtResource("32_6ebcb")
+region = Rect2(1053, 0, 351, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ievpf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43662")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vcemm")
+}],
+"loop": true,
+"name": &"walking2",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nwmal")
+
+[node name="Parallaxes" type="Node2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="Cielo" type="Parallax2D" parent="Parallaxes"]
+scroll_scale = Vector2(0.1, 0)
+repeat_size = Vector2(1920, 0)
+repeat_times = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallaxes/Cielo"]
+texture = ExtResource("2_l726g")
+
+[node name="Cielo2" type="Parallax2D" parent="Parallaxes"]
+scroll_scale = Vector2(0.6, 0)
+repeat_size = Vector2(1920, 0)
+repeat_times = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallaxes/Cielo2"]
+texture = ExtResource("3_ti6ls")
+
+[node name="ScrollController" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="ScrollController"]
+position_smoothing_enabled = true
+
+[node name="Personajes" type="Node" parent="."]
+
+[node name="Character" type="Node2D" parent="Personajes"]
+visible = false
+scale = Vector2(0.5, 0.5)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Personajes/Character"]
+position = Vector2(8, 742)
+sprite_frames = SubResource("SpriteFrames_fbvl3")
+animation = &"walking2"
+speed_scale = 0.8
+flip_h = true
+
+[node name="papa" type="Node2D" parent="Personajes"]
+scale = Vector2(0.25, 0.25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Personajes/papa"]
+position = Vector2(308, 1460)
+sprite_frames = SubResource("SpriteFrames_ogn5i")
+animation = &"walking2"
+speed_scale = 0.8
+flip_h = true
+
+[node name="mama" type="Node2D" parent="Personajes"]
+scale = Vector2(0.25, 0.25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Personajes/mama"]
+position = Vector2(532, 1368)
+sprite_frames = SubResource("SpriteFrames_ca7ih")
+animation = &"walking2"
+speed_scale = 0.8
+flip_h = true
+
+[node name="david" type="Node2D" parent="Personajes"]
+scale = Vector2(0.25, 0.25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Personajes/david"]
+position = Vector2(720, 1816)
+sprite_frames = SubResource("SpriteFrames_ybhgs")
+animation = &"walking2"
+speed_scale = 0.8
+flip_h = true
+
+[node name="yopeque" type="Node2D" parent="Personajes"]
+scale = Vector2(0.25, 0.25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Personajes/yopeque"]
+position = Vector2(36, 1652)
+sprite_frames = SubResource("SpriteFrames_ievpf")
+animation = &"walking2"
+speed_scale = 0.8
+flip_h = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33_pqbx4")
+autoplay = true
