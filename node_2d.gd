@@ -14,6 +14,9 @@ var cues = [
 	{"time": 11.960+(1.0/8), "action":padres_corren},
 	{"time": 17.0, "action":ari_peque_se_levanta},
 	{"time": 17.4, "action":_inicial},
+	{"time": 18.4, "action":init_transfomacion_aniño},
+	{"time": 18.8, "action":transfomacion_aniño},
+	{"time": 19.4, "action":end_transfomacion_aniño},
 	{"time": 1000.440, "action":"ari_david_corren"},
 ]
 
@@ -75,7 +78,7 @@ func ari_david_corren(delta):
 
 func ari_cae(delta):
 	$Personajes/yopeque.scale=Vector2(0.30,0.30)
-	$Personajes/yopeque.position+= Vector2.LEFT*(speed/2)*delta
+	$Personajes/yopeque.position+= Vector2.LEFT*(speed/2.0)*delta
 	$Personajes/yopeque/AnimatedSprite2D.play("cae")
 	$Personajes/Character/AnimatedSprite2D.stop()
 	$Personajes/papa/AnimatedSprite2D.stop()
@@ -83,6 +86,7 @@ func ari_cae(delta):
 	$Personajes/david/AnimatedSprite2D.stop()
 
 func ari_llora(delta):
+	$Personajes/yopeque.scale=Vector2(0.27,0.27)
 	$Personajes/david/Gotas.visible=true
 	$Personajes/david/Gotas.play()
 	$Personajes/mama/Gotas.visible=true
@@ -113,3 +117,20 @@ func ari_peque_se_levanta(delta):
 	$Personajes/yopeque/AnimatedSprite2D.animation="walking2"
 	$Personajes/yopeque.scale=Vector2(0.25,0.25)
 	$Personajes/yopeque/AnimatedSprite2D.stop()
+
+func init_transfomacion_aniño(delta):
+	$Personajes/yopeque/Transformacion.visible=true
+	$Personajes/yopeque/Transformacion.play()
+	_inicial(delta)
+
+func transfomacion_aniño(delta):
+	$Personajes/yopeque/AnimatedSprite2D.visible=false
+	$Personajes/yopeque/AnimatedSprite2D.stop()
+	$"Personajes/yopeque/niño".visible=true
+	$"Personajes/yopeque/niño".play("walking2")
+	_inicial(delta)
+
+func end_transfomacion_aniño(delta):
+	$Personajes/yopeque/Transformacion.visible=false
+	$Personajes/yopeque/Transformacion.stop()
+	_inicial(delta)
